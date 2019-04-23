@@ -1,0 +1,15 @@
+.info1{
+  font-weight: bold;
+  font-size: 20px;
+}
+.about-banner{
+  width: 375rpx;/*750rpx（总相对宽度）*/
+  height: 375rpx;
+  border-radius: 50%;/*设为圆形图片*/
+}
+.nav-default{
+  color: blue;
+}
+.nav-hover{
+  color: red;
+}

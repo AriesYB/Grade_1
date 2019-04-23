@@ -1,0 +1,29 @@
+{
+  "pages": [
+    "pages/page1/page1",
+    "pages/page2/page2"
+  ],
+  "window": {
+    "navigationBarBackgroundColor": "#ffffff",
+    "navigationBarTextStyle": "black",
+    "backgroundColor": "#eeeeee",
+    "backgroundTextStyle": "light",
+    "enablePullDownRefresh": false
+  },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/page1/page1",
+      "text": "计算器",
+      "iconPath": "image/icon/icon2.png",
+      "selectedIconPath": "image/icon/icon1.png"
+    },{
+      "pagePath": "pages/page2/page2",
+      "text": "日志",
+      "iconPath": "image/icon/icon2.png",
+      "selectedIconPath": "image/icon/icon1.png"
+    }],
+      "color": "#000000",
+      "selectedColor": "#D73909",
+      "backgroundColor": "#C8D6D7"
+  }
+}

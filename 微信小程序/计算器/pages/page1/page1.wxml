@@ -1,0 +1,50 @@
+<!--pages/page1.wxml-->
+<view class='container'>
+  <view class='xianshi'>
+    <block>
+      {{content}}
+    </block>
+  </view>
+
+  <view class='container-button'>
+      <view class='item-column'>
+        <view class='item{{index}}' wx:for="{{arr0}}" wx:key='*this' bindtap='tap{{index}}' >
+          <view class='item' hover-class='nav-hover'>
+            <text>
+              {{item}}
+            </text>
+          </view>
+        </view>
+      </view>
+
+      <view class='item-column'>
+        <view class='item{{index+5}}' wx:for="{{arr1}}" wx:key='*this' bindtap='tap{{index+5}}'>
+          <view class='item' hover-class='nav-hover'>
+            <text>
+              {{item}}
+            </text>
+          </view>
+        </view>
+      </view>
+
+      <view class='item-column'>  
+        <view class='item{{index+10}}' wx:for="{{arr2}}" wx:key='*this' bindtap='tap{{index+10}}'>
+          <view class='item' hover-class='nav-hover'>
+            <text>
+              {{item}}
+            </text>
+          </view>
+        </view>
+      </view>
+
+      <view class='item-column'>  
+        <view class='item{{index+15}}' wx:for="{{arr3}}" wx:key='*this' bindtap='tap{{index+15}}'>
+          <view class='item' hover-class='nav-hover'>
+            <text>
+              {{item}}
+            </text>
+          </view>
+        </view>
+      </view>
+  </view>
+</view>

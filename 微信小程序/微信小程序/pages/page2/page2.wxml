@@ -1,0 +1,9 @@
+<view class='container'>
+  <text style='font-weight:bold;font-size:50px'>There is nothing.</text>
+    <block wx:for="{{[[1, 5, 3],[1,2]]}}" >
+　　<view> {{index}}: </view>
+　　<view> {{item}}</view>
+　　</block>
+
+  <image src='{{fighterimage[2][0].imagePath}}'></image>
+</view>

@@ -1,0 +1,8 @@
+.container{
+  background-color: #eee;
+  height: 100vh;
+  display: flex;/*flex默认横向平铺*/
+  flex-direction: column;/*修改主轴方向 ：列*/
+  justify-content: space-around;/*使布局沿着主轴方向分散？？*/
+  align-items: center;/*水平方向居中显示*/
+}

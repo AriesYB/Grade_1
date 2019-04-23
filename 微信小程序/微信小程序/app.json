@@ -1,0 +1,38 @@
+{
+  "pages":["pages/page1/page1",
+  "pages/page2/page2",
+  "pages/page1/page1-1/page1-1",
+  "pages/page1/page1-2/page1-2"],
+ "window": {
+  "navigationBarBackgroundColor": "#ffffff",
+  "navigationBarTextStyle": "black",
+  "backgroundColor": "#eeeeee",
+  "backgroundStyle": "light",
+  "backgroundTextStyle": "black",
+  "enablePullDownRefresh": false,
+  "disableScroll": false
+ },
+  "tabBar": {
+    "list": [{
+      "pagePath": "pages/page1/page1",
+      "text": "首页",
+      "iconPath": "pages/page1/icon.png",
+      "selectedIconPath":"pages/page1/seticon.png"
+    },{"pagePath":"pages/page2/page2",
+      "text":"关于",
+      "iconPath": "pages/page2/icon.png",
+      "selectedIconPath": "pages/page2/seticon.png"
+    }],
+    "color": "#000000",
+    "selectedColor":"#D73909",
+    "backgroundColor":"#C8D6D7"
+  },
+  
+ 
+ 
+  "networkTimeout":{
+    "request":10000,
+    "downloadFile":10000
+  },
+  "debug":true
+}

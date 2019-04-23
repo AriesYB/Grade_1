@@ -1,0 +1,35 @@
+/* pages/page1.wxss */
+.container{
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content:space-between;
+}
+.xianshi{
+  height: 300rpx;
+  width:750rpx;
+  background-color:ghostwhite;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+.container-button{
+  height: 100%;
+  width: 100%;
+  display: flex;
+}
+.item{
+  height: 148rpx;
+  width: 183rpx;
+  background-color: whitesmoke;
+  border: 1px solid #D7D7D0;
+  display: flex;
+  justify-content:center; 
+}
+.font{
+  
+}
+.nav-hover{
+  background-color: grey;
+}

@@ -1,0 +1,47 @@
+ <view class=''>
+  <!--幻灯片轮播 是否显示圆点，自动播放，间隔时间， 监听滚动和点击事件 -->
+  <!--swiper indicator-dots="true" autoplay="true" duration="1000" bindchange="listenSwiper"-->
+    <view class='fighter' wx:for="{{thisfighter}}">
+        <view class='title'> 
+          <text>第{{index+1}}个职业:{{item.title}}</text>
+        </view>
+
+        <view>
+          <text class='name'  style='font-weight:bold;font-size:20px'>{{item.name}}</text>
+        </view>
+
+        <swiper class='fighter-swiper' indicator-dots="true" autoplay="true"  current='{{currentIndex}}'>
+          <view wx:if="{{index==0}}">
+            <view class='image-card' bindtap='f1'>
+              <swiper-item wx:for="{{[0,0,0,0,0,0,0,0,0,0]}}" wx:for-item="i">
+              <text>{{index+1}}</text>
+                <image src='{{fighterimage[i][index].imagePath}}'></image>
+                <text catchtap='f0' class='return-button' wx:if="{{currentIndex!=index}}">返回默认页面</text>
+              </swiper-item>
+            </view>
+          </view>
+
+          <view wx:if="{{index==1}}">
+            <view class='image-card'> 
+              <swiper-item wx:for="{{[1,1,1,1]}}" wx:for-item="i">
+                <text>{{index+1}}</text>
+                <image src='{{fighterimage[i][index].imagePath}}'></image>
+                <text class='return-button' wx:if="{{currentIndex!=index}}">返回默认页面</text>
+              </swiper-item>
+            </view>
+          </view>
+
+          <view wx:if="{{index==2}}">
+            <view class='image-card'> 
+              <swiper-item wx:for="{{[2,2,2,2]}}" wx:for-item="i">
+                <text>{{index+1}}</text>
+                <image src='{{fighterimage[i][index].imagePath}}'></image>
+                <text class='return-button' wx:if="{{currentIndex!=index}}">返回默认页面</text>
+              </swiper-item>
+            </view>
+          </view>
+
+        </swiper>；。
+      <text class='comment'>{{item.comment}}</text>
+    </view>
+</view>

@@ -1,0 +1,11 @@
+<view class="container">
+  <text class="info1">这是我的桌面图片。。。 </text>
+    <image class="about-banner" src="/images/123.jpg"></image>
+  <view>
+    <text class='info1'>感觉还是可以</text>
+    <navigator style='display:inline;'
+    url='/pages/page1/page1-1/page1-1' open-type='navigate'
+    hover-class='nav-hover' class='nav-default'>(눈_눈)</navigator>
+  </view>
+    <text> \n Time:{{time}}</text>
+</view>
